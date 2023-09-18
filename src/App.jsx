@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import DasiyUiNav from './Components/DasiyUiNav/DasiyUiNav'
 import Navbar from './Components/Navber/Navbar'
 import PriceOptions from './Components/priceOptions/PriceOptions'
+import LineChart from './Components/LineChart/LineChart'
 
 function App() {
 
@@ -11,6 +11,9 @@ function App() {
 
       <Navbar></Navbar>
       <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
+      
+
     </>
   )
 }
